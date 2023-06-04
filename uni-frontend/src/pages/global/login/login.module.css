@@ -1,5 +1,84 @@
 .ctn{
     width: 100vw;
     height: 100vh;
-    background-color: red;
+    display: flex;
+}
+.login_box{
+    height: 100%;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.email_input{
+    background-color:rgba(199, 236, 223, 0.555);
+    width: 20em;
+    padding: 7px;
+    border-radius: 5px;
+    border: none;
+    outline: 0;
+    margin-top: 5px;
+}
+.pass_input{
+    background-color:rgba(199, 236, 223, 0.555);
+    width: 20em;
+    padding: 7px;
+    border-radius: 5px;
+    border: none;
+    outline: 0;
+}
+.login_para{
+    font-weight: lighter;
+    margin-bottom: 3px;
+}
+.signin_button{
+    width: 7rem;
+    border-radius: 9px;
+    padding: 7px;
+    background-color: rgba(14, 219, 192, 0.801);
+    outline: 0;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.signup_box{
+    height: 100%;
+    width: 30%;
+    background-color: rgb(4, 240, 240);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    gap: 5px;
+}
+.signup_header{
+    font-weight: bolder;
+    margin-bottom: 7px;
+}
+.signup_para{
+    font-weight: 100;
+    line-height: 20px;
+}
+.signup_button{
+    width: 7rem;
+    border-radius: 9px;
+    padding: 7px;
+    background-color: white;
+    outline: 0;
+    border: none;
+    color: black;
+    cursor: pointer;
+    margin-top: 7px;
 }

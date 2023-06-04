@@ -1,0 +1,4 @@
+{
+    "isAuthenticated":true,
+    "message":"Either username or password is incorrect"
+}
